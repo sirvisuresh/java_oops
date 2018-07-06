@@ -1,4 +1,4 @@
-//package p;
+package p;
  class example
 {
     void display()
@@ -20,7 +20,7 @@
           System.out.println("this is private");
     }
     public void newprint()
-    {    System.out.println("its getting access from same class");
+    {    System.out.println("its getting access from same class but ");
     	   printprivate();
     }
 
